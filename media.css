@@ -364,6 +364,8 @@
         padding-right: 20px;
     }
 
+    
+
     .footer-nav {
         padding: 30px 40px;
         font-size: 14px;
@@ -386,6 +388,12 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    /* ///////////////////////////////////////// */
+    .how-item15, .how-item20 {
+        height: 570px;
+    }
+
 }
 
 @media (max-width:808px) {
@@ -543,6 +551,29 @@
     .footer-text {
         display: none;
     }
+
+    /* /////////////////////////////////// */
+
+    .how-item__grid {
+        padding: 10px 0 0;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .how-text {
+        padding: 20px 0 10px;
+        margin: 0 auto;
+    }
+
+    .who-img__large {
+        max-width: 250px;
+        height: 350px;
+        right: 0;
+        top: 190px;
+        object-fit: none;
+        object-position: top left;
+    }
+
 
 
 }
