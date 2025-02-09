@@ -394,6 +394,17 @@
         height: 570px;
     }
 
+    .how-item__grid {
+        padding: 20px 0 20px;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .how-text {
+        padding: 20px 0 10px;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width:808px) {
@@ -554,16 +565,7 @@
 
     /* /////////////////////////////////// */
 
-    .how-item__grid {
-        padding: 10px 0 0;
-        text-align: center;
-        gap: 10px;
-    }
     
-    .how-text {
-        padding: 20px 0 10px;
-        margin: 0 auto;
-    }
 
     .who-img__large {
         max-width: 250px;
@@ -960,6 +962,11 @@
 
     .footer {
         padding: 0;
+    }
+
+
+    .who-img {
+        max-width: 250px;
     }
  
 }
