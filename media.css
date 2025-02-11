@@ -26,6 +26,7 @@
         /* grid-template-columns: 1fr 1fr 1fr; */
         grid-template-rows: repeat(9, 260px);
     }
+
     
     .how-item__grid {
         /* width: 260px; */
@@ -114,11 +115,31 @@
         grid-row: 7/9;
         position: relative;
     }
+
+    /* Automotive///////////////////////////////////////////////// */
+
+    .mapping {
+        padding: 96px 50px 112px;
+    }
+
+    /* inspection/////////////////////////////////////////////// */
+
+    .inspection {
+        grid-template-rows: auto;
+    }
+
+
     
 }
 
 @media (max-width:1174px) {
+    /* automotive//////////////////////////////////////////////// */
+    .detection-img {
+        max-width: 400px;
+        object-fit: cover;
+        object-position: left;
 
+    }
 }
 
 @media (max-width:1040px) {
@@ -134,8 +155,42 @@
         min-height:  650px;
     }
 
+    /* Automotive///////////////////////////////////////////////// */
 
+    .menu-item__right__text {
+        font-size: 26px;
+        line-height: 33px;
+    }
 
+    .menu-item__right {
+        padding: 56px;
+    }
+
+    .detection-item {
+        max-height: 620px;
+    }
+
+    .detection-right {
+        padding: 40px;
+    }
+    
+    .automotive-link {
+        margin-top: 90px;
+    }
+
+    /* inspection////////////////////////////////////////// */
+    .pci-item {
+        padding: 70px 50px;
+    }
+
+    .pci-left__text {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .pci-item__text {
+        gap: 40px;
+    }
     
 }
 
@@ -405,9 +460,82 @@
         margin: 0 auto;
     }
 
+    /* Automotive//////////////////////////////// */
+
+    .mapping-item__left {
+        padding: 30px;
+    }
+    .menu-item__right {
+        padding: 30px;
+    }
+ 
+
+    .menu-item__right__text {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .detection-img {
+        max-width: 300px;
+    }
+
+    .detection-right {
+        padding: 25px 35px;
+    }
+ 
+
+    .menu-text1 {
+        font-size: 46px;
+        line-height: 55px;
+    }
+
+    .automotive-link {
+        margin-top: 45px;
+    }
+
+    /* inspection///////////////////////////////////////////// */
+    .trial-info__inspection {
+        /* padding-top: 80px;
+        padding-bottom: 0; */
+    }
+
+
 }
 
 @media (max-width:808px) {
+    .mapping-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Automotive/////////////////////////////////////////// */
+
+    .detection-img {
+        max-width: 200px;
+    }
+
+    .menu-text1 {
+        font-size: 40px;
+        line-height: 45px;
+        padding-bottom: 25px;
+    }
+
+    .detection-text {
+         font-size: 20px;
+    }
+
+    /* inspection///////////////////////////////////////////// */
+    .trial-info__inspection {
+        padding-bottom: 0;
+    }
+
+    .trial-text__inspection {
+        padding-top: 80px;
+    }
+
+    .pci-item__text {
+        flex-direction: column;
+    }
 
 }
 
@@ -454,9 +582,9 @@
         padding: 30px 50px 10px
     }
 
-    .network {
+    /* .network {
         padding-bottom: 70px;
-    }
+    } */
 
     .network-block {
         margin: 0;
@@ -492,7 +620,7 @@
     }
 
     .howitworks {
-        padding: 70px 48px 70px;
+        padding: 70px 20px 70px;
     }
 
     .howitworks-list {
@@ -565,7 +693,9 @@
 
     /* /////////////////////////////////// */
 
-    
+    .mapping {
+        padding-bottom: 50px;
+    }
 
     .who-img__large {
         max-width: 250px;
@@ -576,8 +706,37 @@
         object-position: top left;
     }
 
+    .automotive-text1 {
+        font-size: 22px;
+    }
 
+    .driver-text1 {
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
 
+    .detection-img  {
+        border-radius: 0;
+    }
+    
+    .detection-right {
+        padding: 25px 20px;
+        border-radius: 0;
+    }
+
+    .detection {
+        padding: 0;
+    }
+
+    /* Inspection////////////////////////////////////////// */
+    .pci {
+        padding: 0;
+        background-color: #1f231f;
+    }
+
+    .trial-info {
+        padding: 0 20px;
+    }
 }
 
 @media (max-width:594px) {
@@ -667,24 +826,63 @@
     .footer-list:last-child {
         margin-top: 20px;
     }
+
+    /* Automotive///////////////////////////////////////////////// */
+    .mapping {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mapping-item__left {
+        min-width: 100%;
+    }
+
+    .automotive-text1 {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+
+    .detection-img {
+        max-width: 150px;
+    }
+
+    /* Inspection//////////////////////////////////////// */
+
+    .pci-title {
+        font-size: 50px;
+    }
+    .pci-left__text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .pci-item {
+        padding: 70px 30px;
+    }
+
+
 }
 
 @media (max-width:496px){
-    .header-info {
-        padding-top: 50px;
-    }
+.header-info {
+    padding-top: 50px;
+}
 
-    .trial-text {
+.trial-text {
         padding: 0 0 30px;
-    }
+}
 
-    .roadly-block {
-        padding: 50px 0;
-    }
+.roadly-block {
+    padding: 50px 0;
+}
 
-    .howitworks-list {
-        flex-direction: column;
-    }
+/* .howitworks {
+    background-color: #0D0E10;
+} */
+
+.howitworks-list {
+    flex-direction: column;
+}
 
 .howitworks-item {
     padding-top: 30px ;
@@ -790,6 +988,38 @@
     object-position: left;
 }
 
+/* Automotive////////////////////////////////////////////////////// */
+.menu-text1 {
+    font-size: 38px;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+
+.menu-text1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.detection-text {
+    font-size: 18px;
+}
+
+.detection-img {
+    display: none;
+}
+
+.automotive-link {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+/* inspection/////////////////////////////////////////// */
+
+.demomap-title {
+    padding-top: 50px;
+}
+
+
 }
 
 @media (max-width:445px) {
@@ -841,9 +1071,9 @@
         bottom: -20px;
     }
 
-    .trial {
+    /* .trial {
         padding: 0;
-    }
+    } */
 
     .trial-text {
         font-size: 29px;
@@ -851,6 +1081,10 @@
 
     .trial-text__bottom {
         font-size: 15px;
+    }
+
+    .howitworks-list {
+        gap: 5px;
     }
 
     .howitworks {
@@ -963,13 +1197,48 @@
     .footer {
         padding: 0;
     }
-
-
+ /* //////////////////////////////////////////////////////// */
     .who-img {
         max-width: 250px;
     }
- 
+
+    /* automotive///////////////////////////////////////////// */
+
+    .driver-text1 {
+        line-height: 45px;
+    }
+
+    /* inspection/////////////////////////////////////////////////// */
+
+    .trial-info__inspection {
+        padding: 0;
+    }
+
+    .trial-text {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .pci-title {
+        font-size: 45px;
+    }
+
+    .pci-subtitle {
+        font-size: 27px;
+        padding: 25px 0 45px;
+    }
+
+    .pci-left__text {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .pci-right__text {
+        font-size: 17px;
+    }
 }
+
+
 
 @media (max-width: 358px) {
 
