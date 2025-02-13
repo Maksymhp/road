@@ -6,10 +6,6 @@ menuBtn.addEventListener ('click' , () => {
     menu.classList.toggle('burger-info--active');
 });
 
-menuBtn.addEventListener ('click' , () => {
-    menu.classList.toggle('burger-info--active');
-});
-
 document.getElementById('open-modal-btn').addEventListener('click',function(){
     document.getElementById('myModal').classList.add('open')
 })
