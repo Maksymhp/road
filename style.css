@@ -18,6 +18,10 @@ img {
     border-radius: 24px;
 }
 
+.logo-img {
+    border-radius: 0;
+}
+
 .header {
     background-image: url(img/header.jpg);
     width: 100%;
