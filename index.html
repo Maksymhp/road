@@ -16,13 +16,14 @@
     <header class="header">
         <!-- <div class="container"> -->
             <nav class="nav">
-                <a href="#" class="logo-link"><img src="img/logo.png" alt="" class="logo-img"></a>
+                <a href="index.html" class="logo-link"><img src="img/logo.png" alt="" class="logo-img"></a>
                     <div class="burger-info">
                         <ul class="nav-list">
                             <li class="nav-item"><a href="automotive.html" class="nav-link">Automotive</a></li>
                             <li class="nav-item"><a href="inspection.html" class="nav-link">PCI Inspection</a></li>
-                            <li class="nav-item"><a href="howitworks.html" class="nav-link">Asset Inspection</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                            <li class="nav-item"><a href="assetinspection.html" class="nav-link">Asset Inspection</a></li>
+                            <li class="nav-item"><a href="howitworks.html" class="nav-link">How it works</a></li>
+                            <li class="nav-item"><a href="contacts.html" class="nav-link">Contact Us</a></li>
                         </ul>
                         <div class="header-buttons header-buttons__burger">
                             <div class="header-buttons__right  header-buttons__burger__right">
@@ -235,8 +236,10 @@
             </div>
             <div class="network">
                 <div class="network-block process-block">
-                    <h3 class="network-title">Roadly’s setup process</h3>
-                    <p class="process-text">Roadly can be installed in minutes without any permanent modifications to your vehicle.</p>
+                    <div class="proces-block__rel">
+                        <h3 class="network-title">Roadly’s setup process</h3>
+                        <p class="process-text">Roadly can be installed in minutes without any permanent modifications to your vehicle.</p>
+                    </div>
                     <img src="img/ico/Caurusel/1.svg" alt="" class="roadly-anim roadly-anim1">
                     <img src="img/ico/Caurusel/2.svg" alt="" class="roadly-anim roadly-anim2">
                     <div class="network-list">
@@ -297,6 +300,7 @@
                                     <h4 class="publication-title">Mark DeSantis joined Roadly as a Strategic Advisor</h4>
                                     <p class="publication-text">Mark DeSantis, Ex-Cofounder and CEO of RoadBotics, joined Roadly as a Strategic Advisor with over 20 years of experience in tech.</p>
                                     <span class="publication-news">NEWS</span>
+                                    <button id="open-modal-btn1"  class="zero-btn">More</button>
                                 </div>
                                 <div class="publication-item">
                                     <img src="img/Publication/2.jpeg" alt="" class="publication-img">
@@ -304,16 +308,112 @@
                                         in the US</h4>
                                     <p class="publication-text">On November 13th through 15th Roadly presented its solutions at the Tech.AD, the largest and most influential automotive conference in the US.</p>
                                     <span class="publication-news">NEWS</span>
+                                    <button id="open-modal-btn2"  class="zero-btn">More</button>
                                 </div>
                                 <div class="publication-item">
                                     <img src="img/Publication/3.jpeg" alt="" class="publication-img">
                                     <h4 class="publication-title">Roadly Wins the 2nd Place Award at the Tech.AD USA 2022</h4>
                                     <p class="publication-text">Roadly’s HD & ADAS mapping platform was recognized with the 2nd Place Award in the Software & Compute Platform Category at the Tech.AD 2022</p>
                                     <span class="publication-news">NEWS</span>
+                                    <button id="open-modal-btn"  class="zero-btn">More</button>
                                 </div>
                     </div>
                     <div class="publication-button"><a href="#" class="publication-btn">Load more</a></div>
                 </div>
+                
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-window">
+                    <nav class="nav nav-zero">
+                        <button class="btn-close" id="close-my-modal-btn"><img src="img/ico/inner.svg" class="zero-ico" alt=""> CLOSE</button>
+                        <a href="index.html" class="logo-link"><img src="img/logo.png" alt="" class="logo-img logo-img__zero"></a>   
+                        <div class="social header-social social-block__menu">
+                            <a href="" class="social-link"><img src="img/ico/in.svg" alt="" class="social-img"></a>
+                            <a href="" class="social-link"><img src="img/ico/yt.svg" alt="" class="social-img"></a>
+                        </div>
+                    </nav>
+                    <h2 class="zero-title">Roadly Wins the 2nd Place Award at the Tech.AD USA 2022</h2>
+                    <div class="zero-information">
+                        <div class="zero-block">
+                            
+                            <img src="img/image 9.png" alt="" class="zero-foto">
+                            
+                            <p class="zero-subtitle">On Nov 13th, 2022 Roadly’s HD & ADAS mapping platform was recognized with the 2nd Place Award in the Software & Compute Platform Category at the Tech.AD 2022, one of the world’s leading autonomous vehicle technology conferences.</p>
+                            <p class="zero-text">The Tech.AD USA Award exclusively honors extraordinary projects in the automotive industry and celebrates exceptional solutions & innovations. The nominees are selected during a live-voting session with the largest community of autonomous driving decision-makers in North America. The evaluation criteria include innovation, simplicity, achievement, maturity and cost effectiveness. the In 2022, the Tech.AD USA award ceremony was held live in Detroit and moderated by Paul Preh (MHP – A Porsche Company).</p>
+                            <p class="zero-text">Roadly was awarded with a 2nd place for its HD & ADAS mapping platform. Roadly's groundbreaking technology combines crowdsourced data collection, computer vision, and AI. It enables fleet-based HD mapping with the consumer-grade cameras used instead of expensive sensors. Roadly’s visual SLAM engine precisely positions assets on a map with inch-level accuracy.</p>
+                            <div class="about">
+                                <div class="zero-autor">
+                                    <img class="zero-img" src="img/zero-img.png" alt="">
+                                    <span>Eugene Nikolsky</span>
+                                </div>
+                                <span class="zero-data">22.11.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="myModal1" class="modal">
+                <div class="modal-window">
+                    <nav class="nav nav-zero">
+                        <button class="btn-close" id="close-my-modal-btn1"><img src="img/ico/inner.svg" class="zero-ico" alt=""> CLOSE</button>
+                        <a href="index.html" class="logo-link"><img src="img/logo.png" alt="" class="logo-img logo-img__zero"></a>   
+                        <div class="social header-social social-block__menu">
+                            <a href="" class="social-link"><img src="img/ico/in.svg" alt="" class="social-img"></a>
+                            <a href="" class="social-link"><img src="img/ico/yt.svg" alt="" class="social-img"></a>
+                        </div>
+                    </nav>
+                    <h2 class="zero-title">Roadly Wins the 2nd Place Award at the Tech.AD USA 2022</h2>
+                    <div class="zero-information">
+                        <div class="zero-block">
+                            
+                            <img src="img/zero1.jpeg" alt="" class="zero-foto">
+                            
+                            <p class="zero-subtitle">On Nov 13th, 2022 Roadly’s HD & ADAS mapping platform was recognized with the 2nd Place Award in the Software & Compute Platform Category at the Tech.AD 2022, one of the world’s leading autonomous vehicle technology conferences.</p>
+                            <p class="zero-text">The Tech.AD USA Award exclusively honors extraordinary projects in the automotive industry and celebrates exceptional solutions & innovations. The nominees are selected during a live-voting session with the largest community of autonomous driving decision-makers in North America. The evaluation criteria include innovation, simplicity, achievement, maturity and cost effectiveness. the In 2022, the Tech.AD USA award ceremony was held live in Detroit and moderated by Paul Preh (MHP – A Porsche Company).</p>
+                            <p class="zero-text">Roadly was awarded with a 2nd place for its HD & ADAS mapping platform. Roadly's groundbreaking technology combines crowdsourced data collection, computer vision, and AI. It enables fleet-based HD mapping with the consumer-grade cameras used instead of expensive sensors. Roadly’s visual SLAM engine precisely positions assets on a map with inch-level accuracy.</p>
+                            <div class="about">
+                                <div class="zero-autor">
+                                    <img class="zero-img" src="img/zero-img.png" alt="">
+                                    <span>Eugene Nikolsky</span>
+                                </div>
+                                <span class="zero-data">22.11.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="myModal2" class="modal">
+                <div class="modal-window">
+                    <nav class="nav nav-zero">
+                        <button class="btn-close" id="close-my-modal-btn2"><img src="img/ico/inner.svg" class="zero-ico" alt=""> CLOSE</button>
+                        <a href="index.html" class="logo-link"><img src="img/logo.png" alt="" class="logo-img logo-img__zero"></a>   
+                        <div class="social header-social social-block__menu">
+                            <a href="" class="social-link"><img src="img/ico/in.svg" alt="" class="social-img"></a>
+                            <a href="" class="social-link"><img src="img/ico/yt.svg" alt="" class="social-img"></a>
+                        </div>
+                    </nav>
+                    <h2 class="zero-title">Roadly Wins the 2nd Place Award at the Tech.AD USA 2022</h2>
+                    <div class="zero-information">
+                        <div class="zero-block">
+                            
+                            <img src="img/zero2.jpeg" alt="" class="zero-foto">
+                            
+                            <p class="zero-subtitle">On Nov 13th, 2022 Roadly’s HD & ADAS mapping platform was recognized with the 2nd Place Award in the Software & Compute Platform Category at the Tech.AD 2022, one of the world’s leading autonomous vehicle technology conferences.</p>
+                            <p class="zero-text">The Tech.AD USA Award exclusively honors extraordinary projects in the automotive industry and celebrates exceptional solutions & innovations. The nominees are selected during a live-voting session with the largest community of autonomous driving decision-makers in North America. The evaluation criteria include innovation, simplicity, achievement, maturity and cost effectiveness. the In 2022, the Tech.AD USA award ceremony was held live in Detroit and moderated by Paul Preh (MHP – A Porsche Company).</p>
+                            <p class="zero-text">Roadly was awarded with a 2nd place for its HD & ADAS mapping platform. Roadly's groundbreaking technology combines crowdsourced data collection, computer vision, and AI. It enables fleet-based HD mapping with the consumer-grade cameras used instead of expensive sensors. Roadly’s visual SLAM engine precisely positions assets on a map with inch-level accuracy.</p>
+                            <div class="about">
+                                <div class="zero-autor">
+                                    <img class="zero-img" src="img/zero-img.png" alt="">
+                                    <span>Eugene Nikolsky</span>
+                                </div>
+                                <span class="zero-data">22.11.2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             <footer class="footer">
                 <div class="footer-nav">
